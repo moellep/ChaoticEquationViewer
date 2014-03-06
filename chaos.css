@@ -1,0 +1,24 @@
+#myCanvas {
+  border: 1px solid #87CEFA;
+  -webkit-user-select: none;
+  user-select: none;
+}
+input {
+  height: 3em;
+  width: 12em;
+  font-weight: bold;
+  color: blue;
+  background-color: #87CEFA;
+  border: 1;
+  border-style: none;
+}
+input:hover {
+  background-color: #97DEFF;
+}
+input.disabled {
+  background-color: LightGray;
+  color: Gray;
+}
+input.disabled:hover {
+  background-color: LightGray;
+}
